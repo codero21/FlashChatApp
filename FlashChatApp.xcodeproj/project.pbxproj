@@ -56,6 +56,7 @@
 		E38B01C1247C34DD004C2436 /* FlashChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				E38B01F6247C3D16004C2436 /* Model */,
 				E38B01C2247C34DD004C2436 /* AppDelegate.swift */,
 				E38B01C4247C34DD004C2436 /* SceneDelegate.swift */,
 				E38B01C6247C34DD004C2436 /* ViewController.swift */,
@@ -65,6 +66,13 @@
 				E38B01D0247C34E3004C2436 /* Info.plist */,
 			);
 			path = FlashChatApp;
+			sourceTree = "<group>";
+		};
+		E38B01F6247C3D16004C2436 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
