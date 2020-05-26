@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		E38B01C3247C34DD004C2436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01C2247C34DD004C2436 /* AppDelegate.swift */; };
 		E38B01C5247C34DD004C2436 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01C4247C34DD004C2436 /* SceneDelegate.swift */; };
-		E38B01C7247C34DD004C2436 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01C6247C34DD004C2436 /* ViewController.swift */; };
+		E38B01C7247C34DD004C2436 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01C6247C34DD004C2436 /* WelcomeViewController.swift */; };
 		E38B01CA247C34DD004C2436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38B01C8247C34DD004C2436 /* Main.storyboard */; };
 		E38B01CC247C34E3004C2436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38B01CB247C34E3004C2436 /* Assets.xcassets */; };
 		E38B01CF247C34E3004C2436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38B01CD247C34E3004C2436 /* LaunchScreen.storyboard */; };
+		E38B01FA247C4AAC004C2436 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01F9247C4AAC004C2436 /* RegisterViewController.swift */; };
+		E38B01FC247C546E004C2436 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01FB247C546E004C2436 /* LoginViewController.swift */; };
+		E38B01FE247CB79E004C2436 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01FD247CB79E004C2436 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E38B01BF247C34DD004C2436 /* FlashChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38B01C2247C34DD004C2436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E38B01C4247C34DD004C2436 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E38B01C6247C34DD004C2436 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E38B01C6247C34DD004C2436 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E38B01C9247C34DD004C2436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E38B01CB247C34E3004C2436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E38B01CE247C34E3004C2436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E38B01D0247C34E3004C2436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38B01F9247C4AAC004C2436 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E38B01FB247C546E004C2436 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E38B01FD247CB79E004C2436 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +62,11 @@
 		E38B01C1247C34DD004C2436 /* FlashChatApp */ = {
 			isa = PBXGroup;
 			children = (
-				E38B01F6247C3D16004C2436 /* Model */,
 				E38B01C2247C34DD004C2436 /* AppDelegate.swift */,
 				E38B01C4247C34DD004C2436 /* SceneDelegate.swift */,
-				E38B01C6247C34DD004C2436 /* ViewController.swift */,
-				E38B01C8247C34DD004C2436 /* Main.storyboard */,
+				E38B01F6247C3D16004C2436 /* Models */,
+				E38B01F7247C3D90004C2436 /* Controllers */,
+				E38B01F8247C3DA0004C2436 /* Views */,
 				E38B01CB247C34E3004C2436 /* Assets.xcassets */,
 				E38B01CD247C34E3004C2436 /* LaunchScreen.storyboard */,
 				E38B01D0247C34E3004C2436 /* Info.plist */,
@@ -68,11 +74,30 @@
 			path = FlashChatApp;
 			sourceTree = "<group>";
 		};
-		E38B01F6247C3D16004C2436 /* Model */ = {
+		E38B01F6247C3D16004C2436 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Model;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E38B01F7247C3D90004C2436 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E38B01C6247C34DD004C2436 /* WelcomeViewController.swift */,
+				E38B01F9247C4AAC004C2436 /* RegisterViewController.swift */,
+				E38B01FB247C546E004C2436 /* LoginViewController.swift */,
+				E38B01FD247CB79E004C2436 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E38B01F8247C3DA0004C2436 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E38B01C8247C34DD004C2436 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38B01C7247C34DD004C2436 /* ViewController.swift in Sources */,
+				E38B01C7247C34DD004C2436 /* WelcomeViewController.swift in Sources */,
 				E38B01C3247C34DD004C2436 /* AppDelegate.swift in Sources */,
 				E38B01C5247C34DD004C2436 /* SceneDelegate.swift in Sources */,
+				E38B01FC247C546E004C2436 /* LoginViewController.swift in Sources */,
+				E38B01FE247CB79E004C2436 /* ChatViewController.swift in Sources */,
+				E38B01FA247C4AAC004C2436 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
