@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		E38B01FA247C4AAC004C2436 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01F9247C4AAC004C2436 /* RegisterViewController.swift */; };
 		E38B01FC247C546E004C2436 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01FB247C546E004C2436 /* LoginViewController.swift */; };
 		E38B01FE247CB79E004C2436 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01FD247CB79E004C2436 /* ChatViewController.swift */; };
+		E38B020024809692004C2436 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E38B01FF24809692004C2436 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E38B01F9247C4AAC004C2436 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E38B01FB247C546E004C2436 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E38B01FD247CB79E004C2436 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E38B01FF24809692004C2436 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,6 @@
 				8865E05E9B22CF77E752C3F2 /* Pods-FlashChatApp.debug.xcconfig */,
 				C78665B85832848113AD7301 /* Pods-FlashChatApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -95,6 +96,7 @@
 				E38B01CB247C34E3004C2436 /* Assets.xcassets */,
 				E38B01CD247C34E3004C2436 /* LaunchScreen.storyboard */,
 				E38B01D0247C34E3004C2436 /* Info.plist */,
+				E38B01FF24809692004C2436 /* GoogleService-Info.plist */,
 			);
 			path = FlashChatApp;
 			sourceTree = "<group>";
@@ -186,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38B01CF247C34E3004C2436 /* LaunchScreen.storyboard in Resources */,
+				E38B020024809692004C2436 /* GoogleService-Info.plist in Resources */,
 				E38B01CC247C34E3004C2436 /* Assets.xcassets in Resources */,
 				E38B01CA247C34DD004C2436 /* Main.storyboard in Resources */,
 			);
