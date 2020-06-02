@@ -19,6 +19,7 @@
 		E38B01FE247CB79E004C2436 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B01FD247CB79E004C2436 /* ChatViewController.swift */; };
 		E38B020024809692004C2436 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E38B01FF24809692004C2436 /* GoogleService-Info.plist */; };
 		E38B02022480ED28004C2436 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B02012480ED28004C2436 /* Constants.swift */; };
+		E3B69A892486117100FCC2F0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B69A882486117100FCC2F0 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E38B01FD247CB79E004C2436 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		E38B01FF24809692004C2436 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E38B02012480ED28004C2436 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E3B69A882486117100FCC2F0 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		E38B01F6247C3D16004C2436 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E3B69A882486117100FCC2F0 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				E38B01C5247C34DD004C2436 /* SceneDelegate.swift in Sources */,
 				E38B01FC247C546E004C2436 /* LoginViewController.swift in Sources */,
 				E38B02022480ED28004C2436 /* Constants.swift in Sources */,
+				E3B69A892486117100FCC2F0 /* Message.swift in Sources */,
 				E38B01FE247CB79E004C2436 /* ChatViewController.swift in Sources */,
 				E38B01FA247C4AAC004C2436 /* RegisterViewController.swift in Sources */,
 			);
